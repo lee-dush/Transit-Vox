@@ -44,7 +44,7 @@ const Maintenance = () => {
             loading="lazy"
           />
           {/* subtle brand overlay */}
-          <div className="absolute inset-0 bg-gradient-to-tr from-tv-navy/20 via-transparent to-tv-teal/20" />
+          <div className="absolute inset-0 bg-linear-to-tr from-tv-navy/20 via-transparent to-tv-teal/20" />
         </div>
       </div>
     </div>
