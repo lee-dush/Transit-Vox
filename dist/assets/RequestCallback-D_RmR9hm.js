@@ -1,0 +1,1 @@
+import{c as s,j as c}from"./index-C4C_teaV.js";const o=()=>{const t=s.c(1);let e;return t[0]===Symbol.for("react.memo_cache_sentinel")?(e=c.jsx("h1",{children:"RequestCallback"}),t[0]=e):e=t[0],e};export{o as default};
