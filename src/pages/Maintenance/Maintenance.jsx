@@ -5,7 +5,7 @@ const Maintenance = () => {
         {/* Left panel */}
         <div className="flex w-full flex-col lg:w-1/2">
           <div className="px-10 pt-10">
-            <img src="desert.avif" alt="TransitVox" className="h-30 w-auto" />
+            <img src="logo.png" alt="TransitVox" className="h-30 w-auto" />
           </div>
 
           <div className="flex flex-1 items-center px-10 pb-12">
@@ -34,7 +34,7 @@ const Maintenance = () => {
         {/* Right image */}
         <div className="relative hidden lg:block lg:w-1/2">
           <img
-            src="logo.png"
+            src="desert.avif"
             alt=""
             className="h-full w-full object-cover"
             loading="lazy"
