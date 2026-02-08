@@ -45,7 +45,7 @@ export default function Navigation() {
           {/* Brand */}
           <Link to="/" className="flex items-center gap-3">
             <img
-              src="/src/assets/images/logo.png"
+              src="logo.png"
               alt="TransitVox"
               className="h-10 w-auto"
             />

@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="md:col-span-1">
             <Link to="/" className="inline-flex items-center gap-3">
               <img
-                src="/src/assets/images/logo.png"
+                src="logo.png"
                 alt="TransitVox"
                 className="h-10 w-auto"
               />
