@@ -9,13 +9,14 @@ const Maintenance = lazy(() => import ('../pages/Maintenance/Maintenance'));
 const NotFound = lazy(() => import ('../pages/NotFound/NotFound'));
 const Solutions = lazy(() => import ('../pages/Solutions/Solutions'));
 const Coverage =  lazy(() => import ('../pages/Coverage/Coverage'));
+import RouteLoader from '../components/common/RouteLoader/RouteLoader';
 
 const MainLayout = lazy(() => import ('../components/layout/MainLayout'));
 
 export default function AppRoutes() {
     return (
         <BrowserRouter>
-            <Suspense fallback={<div className='flex items-center justify-center min-h-screen'>loading...</div>}>
+            <Suspense fallback={<RouteLoader />}>
                 <Routes>
                     <Route element={<MainLayout />}>
                         <Route path='/' element={<Home />} />
