@@ -1,8 +1,6 @@
 import { Globe2, BadgeCheck, PhoneCall, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
-import globeImg from "../../../assets/images/globe.png";
-
 const REGIONS = [
   {
     name: "North America",
@@ -76,7 +74,7 @@ export default function Region() {
 
             <div className="relative mt-5">
               <img
-                src={globeImg}
+                src="globe.png"
                 alt="TransitVox global coverage"
                 className="mx-auto w-full max-w-xl select-none"
                 draggable={false}
