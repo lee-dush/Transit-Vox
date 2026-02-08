@@ -1,1 +1,0 @@
-import{c as o,j as s}from"./index-DDSAAcLw.js";const r=()=>{const e=o.c(1);let t;return e[0]===Symbol.for("react.memo_cache_sentinel")?(t=s.jsx("h1",{children:"Contact Us Page"}),e[0]=t):t=e[0],t};export{r as default};
