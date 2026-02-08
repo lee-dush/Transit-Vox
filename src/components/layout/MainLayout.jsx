@@ -7,7 +7,6 @@ export default function MainLayout () {
     return (
         <div className="min-h-screen flex flex-col bg-light dark:bg-dark text-black dark:text-light">
             <Navigation />
-            <Header />
             <main>
                 <Outlet />
             </main>
