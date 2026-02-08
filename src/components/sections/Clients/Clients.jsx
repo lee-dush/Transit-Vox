@@ -1,12 +1,12 @@
 import { useRef } from "react";
 
 const CLIENTS = [
-  "/src/assets/images/clients/didww.png",
-  "/src/assets/images/clients/idt.jpg",
-  "/src/assets/images/clients/LANCK_Telecom.webp",
-  "/src/assets/images/clients/Orange-Emblem.png",
-  "/src/assets/images/clients/ringcentral.avif",
-  "/src/assets/images/clients/voda.png",
+  "./clients/didww.png",
+  "./clients/idt.jpg",
+  "./clients/LANCK_Telecom.webp",
+  "./clients/Orange-Emblem.png",
+  "./clients/ringcentral.avif",
+  "./clients/voda.png",
 ];
 
 export default function Clients() {
