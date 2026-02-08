@@ -1,7 +1,3 @@
-// src/pages/Maintenance/Maintenance.jsx
-import logo from "../../assets/images/logo.png";
-import heroImg from "../../assets/images/desert.avif";
-
 const Maintenance = () => {
   return (
     <div className="fixed inset-0 z-50 bg-white">
@@ -9,7 +5,7 @@ const Maintenance = () => {
         {/* Left panel */}
         <div className="flex w-full flex-col lg:w-1/2">
           <div className="px-10 pt-10">
-            <img src={logo} alt="TransitVox" className="h-30 w-auto" />
+            <img src="desert.avif" alt="TransitVox" className="h-30 w-auto" />
           </div>
 
           <div className="flex flex-1 items-center px-10 pb-12">
@@ -38,7 +34,7 @@ const Maintenance = () => {
         {/* Right image */}
         <div className="relative hidden lg:block lg:w-1/2">
           <img
-            src={heroImg}
+            src="logo.png"
             alt=""
             className="h-full w-full object-cover"
             loading="lazy"
