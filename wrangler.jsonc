@@ -1,5 +1,5 @@
 {
-  "name": "transit-vox",
+  "name": "dashboard",
   "compatibility_date": "2026-02-23",
   "assets": {
     "directory": "./dist"
